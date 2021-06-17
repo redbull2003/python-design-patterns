@@ -2,7 +2,7 @@
     Creational
       - Builder
 """
-# Builder pattern is used when we go to make a product that product is maked another \
+# Builder pattern is used when we go to make a product and that product is maked another \
 #  small components that those smaller componenets must be created so then we can use of them
 
 from abc import ABC, abstractmethod
