@@ -3,7 +3,7 @@
       - Protoype
 """
 # Prototype pattern helps us to make a copy of an object that was created already /
-#  so that there is no need to create an new object and save the resources.
+#  so that there is no need to create a new object and save the resources.
 import copy
 
 class Person:
