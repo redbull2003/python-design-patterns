@@ -8,6 +8,7 @@
                 benz coupe => cls, e-class
                 bmw coupe => m2, m4
 """
+# abstract_factory pattern allow us to create object that can be created in several different ways
 
 from abc import ABC, abstractmethod
 
