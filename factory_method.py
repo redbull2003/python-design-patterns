@@ -3,6 +3,10 @@
       - Factory Method:
             3 Component => 1.Creator, 2.Product, 3.Client
 """
+
+# Factory Method allows us to create a super_class that is responsible \
+#  for creating an object and allow the sub_class to be able to change the type of object being made
+
 from abc import ABC, abstractmethod
 
 # -------------------------------- Creator
@@ -18,12 +22,12 @@ class Creator(ABC):
 
 class JsonCreator(Creator):
     def make(self):
-        return Json()
+        return Json() # Return Products
     
 
 class XmlCreator(Creator):
     def make(self):
-        return Xml()
+        return Xml() # Return Products
 # ---------------------------------
 
 # --------------------------------- Product
