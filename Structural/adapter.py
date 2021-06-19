@@ -3,7 +3,8 @@
       - Adapter
             Adapter => 1.Adaptee  2.Adapter  3.Client
 """
-# Adapter design-pattern allow us with create interfaces that connect classes that can not work together.
+# Adapter design-pattern allow us with create interfaces that connect classes \
+#  that can not work together.
 
 class IranSocket:
     _type = '2'

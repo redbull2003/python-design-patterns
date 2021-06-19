@@ -2,7 +2,8 @@
     Structural:
       - Decorator pattern != python pattern
 """
-# decorator design-pattern allow us to add behaviors of classes that made already without having to change that class
+# decorator design-pattern allow us to add behaviors of classes that made \
+#  already without having to change that class
 
 class Article:
     def show(self):

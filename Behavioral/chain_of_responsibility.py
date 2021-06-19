@@ -3,7 +3,8 @@
       - Chain Of Responsibility
 """
 # when our program is going to receive a diferrent information /
-#  and return a diferrent response to that type, we can use Chain Of Responsibility pattern
+#  and return a diferrent response to that type, we can use Chain Of/
+#  Responsibility pattern
 
 from abc import ABC, abstractmethod
 

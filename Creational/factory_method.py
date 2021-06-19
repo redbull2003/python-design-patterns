@@ -5,7 +5,8 @@
 """
 
 # Factory Method allows us to create a super_class that is responsible \
-#  for creating an object and allow the sub_class to be able to change the type of object being made
+#  for creating an object and allow the sub_class to be able to change the \
+#  type of object being made
 
 from abc import ABC, abstractmethod
 

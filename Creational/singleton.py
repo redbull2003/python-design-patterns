@@ -3,7 +3,8 @@
       - Singleton
 """
 
-# Singleton Pattern allow us to create classes in such a way that can created just one instance from that class
+# Singleton Pattern allow us to create classes in such a way that can created \
+#  just one instance from that class
 class Singleton(type):
     _instance = None
 
