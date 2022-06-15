@@ -1,6 +1,7 @@
 """
     Iterable, Iterator, Iteration => Iterate
 """
+# iterator
 
 for i in range(1, 7):  # Iteration
     print(i)
